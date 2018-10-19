@@ -17,7 +17,7 @@ app.post('/', (req, res) =>
 
 app.post('/dog', (req, res) => {
     dogs.push(req.body.dogname);
-    return res.status(200).json({ "Name of Dog": `Hello ${req.body.dogname}!` });
+    return res.status(200).json({ "Name of Dogs": `Hello ${req.body.dogname}!` });
 })
 
 app.get('/dog', (req, res) =>
