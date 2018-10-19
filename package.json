@@ -1,0 +1,15 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "This is my sample application for node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aries Brylle Ventura",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
